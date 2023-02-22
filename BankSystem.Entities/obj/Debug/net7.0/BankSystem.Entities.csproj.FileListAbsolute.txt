@@ -1,0 +1,12 @@
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\bin\Debug\net7.0\BankSystem.Entities.deps.json
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\bin\Debug\net7.0\BankSystem.Entities.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\bin\Debug\net7.0\BankSystem.Entities.pdb
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\BankSystem.Entities.csproj.AssemblyReference.cache
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\BankSystem.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\BankSystem.Entities.AssemblyInfoInputs.cache
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\BankSystem.Entities.AssemblyInfo.cs
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\BankSystem.Entities.csproj.CoreCompileInputs.cache
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\BankSystem.Entities.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\refint\BankSystem.Entities.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\BankSystem.Entities.pdb
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Entities\obj\Debug\net7.0\ref\BankSystem.Entities.dll

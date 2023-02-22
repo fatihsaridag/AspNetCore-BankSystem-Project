@@ -1,0 +1,33 @@
+﻿@model IEnumerable<CryptoViewModel.Coin>
+@using BankSystem.Mvc.Models
+
+
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="container">
+    <h3 class="text-center text-primary mb-3">Api Kripto Para Listesi</h3>
+
+<table class="table table-bordered">
+    <tr>
+        <th>Kripto Adı</th>
+        <th>Kripto Fiyatı</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.name</td>
+            <td>@item.price</td>
+        </tr>
+    }
+
+</table>
+
+</div>
+

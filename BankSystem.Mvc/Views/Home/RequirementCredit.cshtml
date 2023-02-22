@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "RequirementCredit";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<div class="card text-center">
+  <div class="card-body">
+        <h4 class="text-primary">İhtiyaç Kredisi</h4>
+        <img src="~/logo/ihtiyacKredisi.png" style="width:120px;" height="120px;" />
+        <h2 class="card-title text-danger">@TempData["amountOfNeedRequirement"] tutarında @TempData["MonthlyPayment"] ay geri ödemeli krediniz için hesaplamamız :</h2>
+      <div class="row">
+          <div class="col-md-6">
+              <h3 class="text-primary">Taksit Tutarı:</h3>
+              <br />
+                <h2>@TempData["InstallmentAmount"] TL/ay</h2> 
+          </div>
+            <div class="col-md-6">
+              <h3 class="text-primary">Faiz Oranı:</h3>
+              <br />
+                <h2>% @TempData["interestRate"]</h2>
+            </div>
+      </div>
+  
+  </div>
+</div>

@@ -1,0 +1,1033 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\AraçKredisi.PNG",
+      "PackagePath": "staticwebassets\\logo\\AraçKredisi.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\BankLogo.png",
+      "PackagePath": "staticwebassets\\logo\\BankLogo.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\KonutKredisi.PNG",
+      "PackagePath": "staticwebassets\\logo\\KonutKredisi.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\ihtiyacKredisi.png",
+      "PackagePath": "staticwebassets\\logo\\ihtiyacKredisi.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master.zip",
+      "PackagePath": "staticwebassets\\ogani-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\Source\\OwlCarousel2-2.3.4.zip",
+      "PackagePath": "staticwebassets\\ogani-master\\Source\\OwlCarousel2-2.3.4.zip"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\Source\\SlickNav-master.zip",
+      "PackagePath": "staticwebassets\\ogani-master\\Source\\SlickNav-master.zip"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\Source\\bootstrap-4.4.1-dist.zip",
+      "PackagePath": "staticwebassets\\ogani-master\\Source\\bootstrap-4.4.1-dist.zip"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\Source\\font-awesome-4.7.0.zip",
+      "PackagePath": "staticwebassets\\ogani-master\\Source\\font-awesome-4.7.0.zip"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\Source\\jquery-nice-select-1.1.0.zip",
+      "PackagePath": "staticwebassets\\ogani-master\\Source\\jquery-nice-select-1.1.0.zip"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\Source\\jquery-ui-1.12.1.zip",
+      "PackagePath": "staticwebassets\\ogani-master\\Source\\jquery-ui-1.12.1.zip"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\Source\\sass.zip",
+      "PackagePath": "staticwebassets\\ogani-master\\Source\\sass.zip"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\blog-details.html",
+      "PackagePath": "staticwebassets\\ogani-master\\blog-details.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\blog.html",
+      "PackagePath": "staticwebassets\\ogani-master\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\checkout.html",
+      "PackagePath": "staticwebassets\\ogani-master\\checkout.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\contact.html",
+      "PackagePath": "staticwebassets\\ogani-master\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\ogani-master\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\ogani-master\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\ogani-master\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\css\\jquery-ui.min.css",
+      "PackagePath": "staticwebassets\\ogani-master\\css\\jquery-ui.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\ogani-master\\css\\nice-select.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\ogani-master\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\ogani-master\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\css\\style.css",
+      "PackagePath": "staticwebassets\\ogani-master\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\ogani-master\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\blog-4.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\blog-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\blog-5.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\blog-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\blog-6.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\blog-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\details\\details-author.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\details\\details-author.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\details\\details-hero.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\details\\details-hero.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\details\\details-pic.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\details\\details-pic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\sidebar\\sr-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\sidebar\\sr-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\sidebar\\sr-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\sidebar\\sr-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\blog\\sidebar\\sr-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\blog\\sidebar\\sr-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\breadcrumb.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\breadcrumb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\cart\\cart-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\cart\\cart-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\cart\\cart-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\categories\\cat-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\categories\\cat-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\categories\\cat-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\categories\\cat-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\categories\\cat-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\categories\\cat-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\categories\\cat-4.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\categories\\cat-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\categories\\cat-5.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\categories\\cat-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\featured\\feature-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\featured\\feature-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\featured\\feature-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\featured\\feature-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\featured\\feature-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\featured\\feature-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\featured\\feature-4.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\featured\\feature-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\featured\\feature-5.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\featured\\feature-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\featured\\feature-6.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\featured\\feature-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\featured\\feature-7.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\featured\\feature-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\featured\\feature-8.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\featured\\feature-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\hero\\banner.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\hero\\banner.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\language.png",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\language.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\latest-product\\lp-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\latest-product\\lp-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\latest-product\\lp-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\latest-product\\lp-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\latest-product\\lp-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\latest-product\\lp-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\logo.png",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\payment-item.png",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\payment-item.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\product-details-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\product-details-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\product-details-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\product-details-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\product-details-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\product-details-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\product-details-4.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\product-details-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\product-details-5.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\product-details-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\details\\thumb-4.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\details\\thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\discount\\pd-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\discount\\pd-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\discount\\pd-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\discount\\pd-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\discount\\pd-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\discount\\pd-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\discount\\pd-4.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\discount\\pd-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\discount\\pd-5.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\discount\\pd-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\discount\\pd-6.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\discount\\pd-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-1.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-10.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-11.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-12.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-2.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-3.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-4.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-5.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-6.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-7.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-8.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\img\\product\\product-9.jpg",
+      "PackagePath": "staticwebassets\\ogani-master\\img\\product\\product-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\index.html",
+      "PackagePath": "staticwebassets\\ogani-master\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\ogani-master\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\ogani-master\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\js\\jquery-ui.min.js",
+      "PackagePath": "staticwebassets\\ogani-master\\js\\jquery-ui.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\ogani-master\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\ogani-master\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\js\\main.js",
+      "PackagePath": "staticwebassets\\ogani-master\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\ogani-master\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\ogani-master\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\main.html",
+      "PackagePath": "staticwebassets\\ogani-master\\main.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\readme.txt",
+      "PackagePath": "staticwebassets\\ogani-master\\readme.txt"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_base.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_base.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_blog-details.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_blog-details.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_blog-sidebar.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_blog-sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_blog.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_blog.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_breadcrumb.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_breadcrumb.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_checkout.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_checkout.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_contact.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_contact.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_footer.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_footer.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_header.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_header.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_hero.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_hero.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_home-page.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_home-page.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_mixins.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_mixins.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_responsive.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_responsive.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_shop-details.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_shop-details.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_shop-grid.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_shop-grid.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_shoping-cart.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_shoping-cart.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_sidebar.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_sidebar.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\_variable.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\_variable.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\sass\\style.scss",
+      "PackagePath": "staticwebassets\\ogani-master\\sass\\style.scss"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\shop-details.html",
+      "PackagePath": "staticwebassets\\ogani-master\\shop-details.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\shop-grid.html",
+      "PackagePath": "staticwebassets\\ogani-master\\shop-grid.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master\\shoping-cart.html",
+      "PackagePath": "staticwebassets\\ogani-master\\shoping-cart.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\READ-ME.txt",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\READ-ME.txt"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\about.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\about.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\blog.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\blog.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\contact.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\contact.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\css\\style.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\detail.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\detail.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\feature.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\feature.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\about.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\about.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\blog-1.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\blog-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\blog-2.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\blog-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\blog-3.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\blog-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\carousel-1.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\carousel-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\carousel-2.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\carousel-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\feature.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\feature.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\team-1.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\team-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\team-2.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\team-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\team-3.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\team-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\testimonial-1.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\testimonial-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\testimonial-2.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\testimonial-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\testimonial-3.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\testimonial-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\testimonial-4.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\testimonial-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\user.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\user.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-1.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-2.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-3.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-4.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-5.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-6.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-7.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-8.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\img\\vendor-9.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\img\\vendor-9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\index.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\js\\main.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\animate\\animate.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\animate\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\animate\\animate.min.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\animate\\animate.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\counterup\\counterup.min.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\counterup\\counterup.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\easing\\easing.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\easing\\easing.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\easing\\easing.min.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\easing\\easing.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\LICENSE",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\assets\\ajax-loader.gif",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\assets\\ajax-loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.carousel.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.carousel.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.carousel.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.theme.default.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.theme.default.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.theme.default.min.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.theme.default.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.theme.green.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.theme.green.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.theme.green.min.css",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.theme.green.min.css"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.video.play.png",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\assets\\owl.video.play.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\owl.carousel.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\owl.carousel.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\owlcarousel\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\owlcarousel\\owl.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\waypoints\\links.php",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\waypoints\\links.php"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\waypoints\\waypoints.min.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\waypoints\\waypoints.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\wow\\wow.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\wow\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\lib\\wow\\wow.min.js",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\lib\\wow\\wow.min.js"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\price.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\price.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\quote.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\quote.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\service.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\service.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\startup-website-template.jpg",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\startup-website-template.jpg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\team.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\team.html"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\startup2-1.0.0\\testimonial.html",
+      "PackagePath": "staticwebassets\\startup2-1.0.0\\testimonial.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BankSystem.Mvc.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BankSystem.Mvc.props",
+      "PackagePath": "build\\BankSystem.Mvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BankSystem.Mvc.props",
+      "PackagePath": "buildMultiTargeting\\BankSystem.Mvc.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BankSystem.Mvc.props",
+      "PackagePath": "buildTransitive\\BankSystem.Mvc.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
