@@ -33,15 +33,17 @@ namespace BankSystem.Mvc.Controllers
                 return RedirectToAction("Index");
             }
 
-            TempData["CartId"] = id;
+            CartsModel cartsModel = new();
+            cartsModel.Image = cartEntity.Image;
 
-            return View();
+            TempData["CartId"] = id;
+            return View(cartsModel);
         }
 
 
 
         [HttpPost]
-        public IActionResult CartsApplication(AddCartsApplicationViewModel addCartApplicationViewModel)
+        public IActionResult CartsApplication(CartsModel cartsModel)
         {
             if (ModelState.IsValid)
             {
@@ -49,14 +51,14 @@ namespace BankSystem.Mvc.Controllers
                 CartApplication cartApplication = new();
 
                 cartApplication.CartId = Convert.ToInt32(TempData["CartId"]);
-                cartApplication.IdentificationNumber = addCartApplicationViewModel.IdentificationNumber;
-                cartApplication.PhoneNumber = addCartApplicationViewModel.PhoneNumber;
-                cartApplication.DateTime = addCartApplicationViewModel.DateTime;
+                cartApplication.IdentificationNumber = cartsModel.AddCartsApplicationViewModel.IdentificationNumber;
+                cartApplication.PhoneNumber = cartsModel.AddCartsApplicationViewModel.PhoneNumber;
+                cartApplication.DateTime = cartsModel.AddCartsApplicationViewModel.DateTime;
 
                 _cartApplicationService.TAdd(cartApplication);
                 return RedirectToAction("Index");
             }
-            return View(addCartApplicationViewModel);
+            return View(cartsModel.AddCartsApplicationViewModel);
         }
 
 
