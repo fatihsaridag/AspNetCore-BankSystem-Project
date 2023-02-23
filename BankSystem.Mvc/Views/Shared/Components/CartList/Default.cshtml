@@ -19,13 +19,10 @@
                 <div class="card-body">
                     <h5 class="card-title">@item.Title</h5>
                     <p class="card-text">@item.Description</p>
-                    <span><a class="btn btn-lg btn-success">Başvur</a> <a class="btn btn-lg btn-outline-info">Detaylı bilgi</a></span>
+                    <span><a asp-controller="Carts" asp-action="CartsApplication" asp-route-id="@item.CartId" class="btn btn-lg btn-success">Başvur</a> <a class="btn btn-lg btn-outline-info">Detaylı bilgi</a></span>
                 </div>
             </div>
-
-
     </div>
     }
-
 
 </div>

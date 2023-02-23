@@ -14,6 +14,7 @@ namespace BankSystem.Data.UnitOfWorks.Concrete
     {
         private readonly BankSystemContext _context;
         private EfCartRepository _cartRepository;
+        private EfCartApplicationRepository _cartApplicationRepository;
 
         public UnitOfWork(BankSystemContext context)
         {
@@ -22,6 +23,7 @@ namespace BankSystem.Data.UnitOfWorks.Concrete
 
         public ICartRepository Carts => _cartRepository ?? new EfCartRepository(_context);
 
+        public ICartApplicationRepository CartApplications => _cartApplicationRepository ?? new EfCartApplicationRepository(_context);
 
         public void Dispose()
         {

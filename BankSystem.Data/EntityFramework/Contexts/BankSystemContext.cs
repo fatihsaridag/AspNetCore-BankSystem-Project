@@ -17,7 +17,10 @@ namespace BankSystem.Data.EntityFramework.Contexts
 
         }
 
-        public DbSet<Cart> Carts { get; set; }
 
+
+        public DbSet<Cart> Carts { get; set; }
+        public DbSet<CartApplication> CartApplications { get; set; }
+          
     }
 }

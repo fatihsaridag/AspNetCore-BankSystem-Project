@@ -182,6 +182,35 @@ namespace BankSystem.Data.Migrations
                     b.ToTable("Carts");
                 });
 
+            modelBuilder.Entity("BankSystem.Entities.Entities.CartApplication", b =>
+                {
+                    b.Property<int>("CartApplicationId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CartApplicationId"));
+
+                    b.Property<int>("CartId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("DateTime")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IdentificationNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CartApplicationId");
+
+                    b.HasIndex("CartId");
+
+                    b.ToTable("CartApplications");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
                     b.Property<int>("Id")
@@ -285,6 +314,17 @@ namespace BankSystem.Data.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("BankSystem.Entities.Entities.CartApplication", b =>
+                {
+                    b.HasOne("BankSystem.Entities.Entities.Cart", "Cart")
+                        .WithMany("CartApplications")
+                        .HasForeignKey("CartId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cart");
+                });
+
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
                 {
                     b.HasOne("BankSystem.Entities.Entities.AppRole", null)
@@ -334,6 +374,11 @@ namespace BankSystem.Data.Migrations
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("BankSystem.Entities.Entities.Cart", b =>
+                {
+                    b.Navigation("CartApplications");
                 });
 #pragma warning restore 612, 618
         }

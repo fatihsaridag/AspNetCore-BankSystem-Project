@@ -10,6 +10,7 @@ namespace BankSystem.Data.UnitOfWorks.Abstract
     public interface IUnitOfWork : IDisposable
     {
         ICartRepository Carts { get; }
+        ICartApplicationRepository CartApplications { get; }
         int Save();
     }
 }

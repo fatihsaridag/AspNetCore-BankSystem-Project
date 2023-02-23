@@ -1,0 +1,57 @@
+﻿@using BankSystem.Mvc.Models.ViewModels.CartsApplication
+@model AddCartsApplicationViewModel
+
+
+
+@{
+    ViewData["Title"] = "CartsApplication";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+    <div class="card" style="height:200px; background-color:cadetblue">
+            <div class="card-body">
+                <h2 class="text-center card-title" style="color:white">Hızlı Kredi Kartı Başvurusu</h2>
+                 <h5 class="text-center card-title" style="color:white">Fatih kredi kartları için hızlı başvuru formu. Bonus, Shop&Fly ve Amex dünyasının eşsiz ayrıcalıklarına katılmak için hemen formu doldurun!</h5>
+    </div>
+    </div>
+
+    <br />
+    <br />
+<div class="row">
+    <p>Türkiye’nin en çok sevilen, milyonlar tarafından kullanılan kredi kartı Bonus her ay 300’den fazla kampanya fırsatı sunuyor. Garanti BBVA Bonus ile yaptığınız harcamalar karşılığında bonus kazanabilir, kazandığınız bonuslarla Bonus Program Ortakları’nda kredi kartınız ile bedava alışveriş yapabilirsiniz, en çok tercih edilen Bonus kredi kartını kullanmanın keyfini doyasıya yaşayabilirsiniz. Hemen kredi kartı başvurunuzu tamamlayabilir, Bonus’un ayrıcalıklarla dolu dünyasına merhaba diyebilirsiniz.</p>
+</div>
+<br />
+<br />
+
+<div class="container">
+    <h3>Lütfen aşağıdaki bilgileri giriniz.</h3>
+    <br />
+    <br />
+<div class="row">
+    <div class="col-md-6">
+            <form method="post">
+                <div class="form-group">
+                    <label asp-for="PhoneNumber"></label>
+                     <input type="text" asp-for="PhoneNumber" class="form-control" />
+                     <span asp-validation-for="PhoneNumber"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="IdentificationNumber"></label>
+                <input type="text" asp-for="IdentificationNumber" class="form-control" />
+                    <span asp-validation-for="IdentificationNumber"></span>
+
+                </div>
+                <div class="form-group">
+                    <label asp-for="DateTime"></label>
+                <input type="date" asp-for="DateTime"  class="form-control" />
+                    <span asp-validation-for="DateTime"></span>
+                </div>
+                <button class="btn btn-lg btn-outline-primary">Başvur</button>
+            </form>
+
+    </div>
+</div>
+
+</div>
+

@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Carts/CartsApplication.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ2FydHNBcHBsaWNhdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Carts/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

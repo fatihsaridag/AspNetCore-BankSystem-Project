@@ -33,6 +33,7 @@ namespace BankSystem.Mvc
             builder.Services.AddRazorPages();
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<ICartService, CartManager>();
+            builder.Services.AddScoped<ICartApplicationService, CartApplicationManager>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
