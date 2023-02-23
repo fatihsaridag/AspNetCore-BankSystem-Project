@@ -253,8 +253,24 @@
       "PackagePath": "staticwebassets\\logo\\KonutKredisi.PNG"
     },
     {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\americankart.jpeg",
+      "PackagePath": "staticwebassets\\logo\\americankart.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\credit_card.jpg",
+      "PackagePath": "staticwebassets\\logo\\credit_card.jpg"
+    },
+    {
       "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\ihtiyacKredisi.png",
       "PackagePath": "staticwebassets\\logo\\ihtiyacKredisi.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\plus.png",
+      "PackagePath": "staticwebassets\\logo\\plus.png"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\shopfly.jpeg",
+      "PackagePath": "staticwebassets\\logo\\shopfly.jpeg"
     },
     {
       "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master.zip",

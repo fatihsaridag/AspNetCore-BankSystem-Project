@@ -16,5 +16,8 @@ namespace BankSystem.Data.EntityFramework.Contexts
         {
 
         }
+
+        public DbSet<Cart> Carts { get; set; }
+
     }
 }

@@ -1,9 +1,14 @@
 using BankSystem.Data.EntityFramework.Contexts;
 using BankSystem.Data.EntityFramework.Repositories.Abstract;
 using BankSystem.Data.EntityFramework.Repositories.Concrete;
+using BankSystem.Data.UnitOfWorks.Abstract;
+using BankSystem.Data.UnitOfWorks.Concrete;
 using BankSystem.Entities.Entities;
+using BankSystem.Service.Concrete;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using BankSystem.Service.Abstract;
 
 namespace BankSystem.Mvc
 {
@@ -15,6 +20,8 @@ namespace BankSystem.Mvc
 
             ConfigurationManager Configuration = builder.Configuration;
 
+
+
             // Add services to the container.
             builder.Services.AddDbContext<BankSystemContext>(opts =>
             {
@@ -24,6 +31,9 @@ namespace BankSystem.Mvc
 
             builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<BankSystemContext>();
             builder.Services.AddRazorPages();
+            builder.Services.AddControllersWithViews();
+            builder.Services.AddScoped<ICartService, CartManager>();
+            builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
             var app = builder.Build();

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "u/TWfst0Ria1z1NEyZScHtewhyMHDLJ5EEH06FPy9Y4=",
+  "Hash": "EB/0biKWNQSBBiYYvTvOgKWxDj6wqmdyt22/Epl62CI=",
   "Source": "BankSystem.Mvc",
   "BasePath": "_content/BankSystem.Mvc",
   "Mode": "Default",
@@ -1037,6 +1037,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\americankart.jpeg",
+      "SourceId": "BankSystem.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\",
+      "BasePath": "_content/BankSystem.Mvc",
+      "RelativePath": "logo/americankart.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo\\americankart.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\AraçKredisi.PNG",
       "SourceId": "BankSystem.Mvc",
       "SourceType": "Discovered",
@@ -1071,6 +1088,23 @@
       "OriginalItemSpec": "wwwroot\\logo\\BankLogo.png"
     },
     {
+      "Identity": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\credit_card.jpg",
+      "SourceId": "BankSystem.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\",
+      "BasePath": "_content/BankSystem.Mvc",
+      "RelativePath": "logo/credit_card.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo\\credit_card.jpg"
+    },
+    {
       "Identity": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\ihtiyacKredisi.png",
       "SourceId": "BankSystem.Mvc",
       "SourceType": "Discovered",
@@ -1103,6 +1137,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\logo\\KonutKredisi.PNG"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\plus.png",
+      "SourceId": "BankSystem.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\",
+      "BasePath": "_content/BankSystem.Mvc",
+      "RelativePath": "logo/plus.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo\\plus.png"
+    },
+    {
+      "Identity": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\logo\\shopfly.jpeg",
+      "SourceId": "BankSystem.Mvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\",
+      "BasePath": "_content/BankSystem.Mvc",
+      "RelativePath": "logo/shopfly.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\logo\\shopfly.jpeg"
     },
     {
       "Identity": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\ogani-master.zip",

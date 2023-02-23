@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Cart>
+@using BankSystem.Entities.Entities
+
+
+
+<br />
+<br />
+<br />
+<h2 class="text-center">Kredi Kartları</h2>
+<br />
+<br />
+<div class="row">
+     @foreach (var item in Model)
+        {
+    <div class="col-md-4">
+       
+            <div class="card" style="height:500px;">
+                <img class="card-img-top" src="@item.Image" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="card-text">@item.Description</p>
+                    <span><a class="btn btn-lg btn-success">Başvur</a> <a class="btn btn-lg btn-outline-info">Detaylı bilgi</a></span>
+                </div>
+            </div>
+
+
+    </div>
+    }
+
+
+</div>
