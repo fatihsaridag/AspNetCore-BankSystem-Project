@@ -7,13 +7,15 @@ namespace BankSystem.Mvc.Controllers
 {
     public class CartsController : Controller
     {
+        private readonly ILogger<CartsController> _logger;
         private readonly ICartService _cartService;
         private readonly ICartApplicationService _cartApplicationService;
 
-        public CartsController(ICartService cartService, ICartApplicationService cartApplicationService)
+        public CartsController(ICartService cartService, ICartApplicationService cartApplicationService, ILogger<CartsController> logger)
         {
             _cartService = cartService;
             _cartApplicationService = cartApplicationService;
+            _logger = logger;
         }
 
 
@@ -56,6 +58,7 @@ namespace BankSystem.Mvc.Controllers
                 cartApplication.DateTime = cartsModel.AddCartsApplicationViewModel.DateTime;
 
                 _cartApplicationService.TAdd(cartApplication);
+                _logger.LogInformation("Kart Başvurusu yapıldı");
                 return RedirectToAction("Index");
             }
             return View(cartsModel.AddCartsApplicationViewModel);

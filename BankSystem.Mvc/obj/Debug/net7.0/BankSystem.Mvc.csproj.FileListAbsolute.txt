@@ -283,3 +283,15 @@ C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\obj\Debug\net7.0\refint\Ba
 C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\obj\Debug\net7.0\BankSystem.Mvc.pdb
 C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\obj\Debug\net7.0\BankSystem.Mvc.genruntimeconfig.cache
 C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\obj\Debug\net7.0\ref\BankSystem.Mvc.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.AspNetCore.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Extensions.Hosting.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Extensions.Logging.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Settings.Configuration.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Sinks.Console.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Sinks.Debug.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Sinks.File.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Sinks.MSSqlServer.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
+C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\bin\Debug\net7.0\Serilog.Sinks.Seq.dll

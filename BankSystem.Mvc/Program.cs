@@ -9,6 +9,14 @@ using Microsoft.AspNetCore.Cors.Infrastructure;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using BankSystem.Service.Abstract;
+using Serilog.Sinks.MSSqlServer;
+using Microsoft.VisualBasic;
+using System.Collections.ObjectModel;
+using Microsoft.Extensions.Logging;
+using Serilog;
+using Serilog.Core;
+using BankSystem.Mvc.CustomLogging;
+using Serilog.Context;
 
 namespace BankSystem.Mvc
 {
@@ -20,6 +28,38 @@ namespace BankSystem.Mvc
 
             ConfigurationManager Configuration = builder.Configuration;
 
+
+
+            //LOGGING 
+            SqlColumn sqlColumn = new SqlColumn();
+            sqlColumn.ColumnName = "UserName";
+            sqlColumn.DataType = System.Data.SqlDbType.NVarChar;
+            sqlColumn.PropertyName= "UserName";
+            sqlColumn.DataLength = 50;
+            sqlColumn.AllowNull= true;
+
+            ColumnOptions columnOpt = new ColumnOptions();
+            columnOpt.Store.Remove(StandardColumn.Properties);
+            columnOpt.Store.Add(StandardColumn.LogEvent);
+            columnOpt.AdditionalColumns = new Collection<SqlColumn> { sqlColumn };
+
+            Logger log = new LoggerConfiguration()
+               .WriteTo.Console()
+               .WriteTo.File("logs/log.txt")
+               .WriteTo.MSSqlServer(connectionString: builder.Configuration.GetConnectionString("SqlServer"),
+               sinkOptions: new MSSqlServerSinkOptions
+               {
+                   AutoCreateSqlTable = true,
+                   TableName = "logs"
+               },
+               appConfiguration: null,
+               columnOptions: columnOpt)
+               .WriteTo.Seq(builder.Configuration["Seq:ServerURL"])
+               .Enrich.FromLogContext()
+               .Enrich.With<CustomUserNameColumn>()
+               .MinimumLevel.Information()
+               .CreateLogger();
+              
 
 
             // Add services to the container.
@@ -35,7 +75,7 @@ namespace BankSystem.Mvc
             builder.Services.AddScoped<ICartService, CartManager>();
             builder.Services.AddScoped<ICartApplicationService, CartApplicationManager>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
-
+            builder.Host.UseSerilog(log);
 
             var app = builder.Build();
 
@@ -53,6 +93,13 @@ namespace BankSystem.Mvc
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.Use(async (context, next) =>
+            {
+                var username = context.User?.Identity?.IsAuthenticated != null || true ? context.User.Identity.Name : null;
+                LogContext.PushProperty("UserName", username);
+                await next();
+            });
 
             app.MapRazorPages();
 

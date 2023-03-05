@@ -208,7 +208,6 @@ namespace BankSystem.Mvc.Controllers
             return View();
         }
 
-
         [HttpPost]
         public IActionResult VehicleCredit(VehicleCredit vehicleCredit )
         {

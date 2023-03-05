@@ -1,0 +1,132 @@
+2023-03-04 21:53:01.170 +03:00 [INF] User profile is available. Using 'C:\Users\fatih\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-03-04 21:53:01.363 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-03-04 21:53:01.364 +03:00 [INF] Hosting environment: Development
+2023-03-04 21:53:01.364 +03:00 [INF] Content root path: C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc
+2023-03-04 21:53:01.384 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/ - -
+2023-03-04 21:53:01.428 +03:00 [INF] Executing endpoint 'BankSystem.Mvc.Controllers.HomeController.Index (BankSystem.Mvc)'
+2023-03-04 21:53:01.453 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BankSystem.Mvc.Controllers.HomeController (BankSystem.Mvc).
+2023-03-04 21:53:01.462 +03:00 [INF] Executing ViewResult, running view Index.
+2023-03-04 21:53:02.296 +03:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartId], [c].[Description], [c].[Image], [c].[Title]
+FROM [Carts] AS [c]
+2023-03-04 21:53:02.407 +03:00 [INF] Executed ViewResult - view Index executed in 948.3872ms.
+2023-03-04 21:53:02.411 +03:00 [INF] Executed action BankSystem.Mvc.Controllers.HomeController.Index (BankSystem.Mvc) in 956.9671ms
+2023-03-04 21:53:02.411 +03:00 [INF] Executed endpoint 'BankSystem.Mvc.Controllers.HomeController.Index (BankSystem.Mvc)'
+2023-03-04 21:53:02.449 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/ - - - 200 - text/html;+charset=utf-8 1067.1583ms
+2023-03-04 21:53:02.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/img/logo.png - -
+2023-03-04 21:53:02.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/img/payment-item.png - -
+2023-03-04 21:53:02.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - -
+2023-03-04 21:53:02.470 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - -
+2023-03-04 21:53:02.488 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 12.8025ms
+2023-03-04 21:53:02.493 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/img/logo.png - - - 404 - - 22.6898ms
+2023-03-04 21:53:02.493 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/img/payment-item.png - - - 404 - - 22.6096ms
+2023-03-04 21:53:02.524 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 53.9797ms
+2023-03-04 21:53:05.587 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/Carts/CartsApplication/1 - -
+2023-03-04 21:53:05.590 +03:00 [INF] Executing endpoint 'BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc)'
+2023-03-04 21:53:05.600 +03:00 [INF] Route matched with {action = "CartsApplication", controller = "Carts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CartsApplication(Int32) on controller BankSystem.Mvc.Controllers.CartsController (BankSystem.Mvc).
+2023-03-04 21:53:05.699 +03:00 [INF] Executed DbCommand (16ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartId], [c].[Description], [c].[Image], [c].[Title]
+FROM [Carts] AS [c]
+WHERE [c].[CartId] = @__p_0
+2023-03-04 21:53:05.701 +03:00 [INF] Executing ViewResult, running view CartsApplication.
+2023-03-04 21:53:05.729 +03:00 [INF] Executed ViewResult - view CartsApplication executed in 27.8ms.
+2023-03-04 21:53:05.733 +03:00 [INF] Executed action BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc) in 133.0556ms
+2023-03-04 21:53:05.733 +03:00 [INF] Executed endpoint 'BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc)'
+2023-03-04 21:53:05.737 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/Carts/CartsApplication/1 - - - 200 - text/html;+charset=utf-8 150.6032ms
+2023-03-04 21:53:05.749 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/Carts/CartsApplication/img/payment-item.png - -
+2023-03-04 21:53:05.749 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/Carts/CartsApplication/img/logo.png - -
+2023-03-04 21:53:05.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/Carts/CartsApplication/img/logo.png - - - 404 - - 1.4697ms
+2023-03-04 21:53:05.751 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/Carts/CartsApplication/img/payment-item.png - - - 404 - - 1.4682ms
+2023-03-04 21:53:05.753 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - -
+2023-03-04 21:53:05.754 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 1.1224ms
+2023-03-04 21:53:05.755 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - -
+2023-03-04 21:53:05.782 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 27.2807ms
+2023-03-04 21:53:13.067 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44335/Carts/CartsApplication/1 application/x-www-form-urlencoded 428
+2023-03-04 21:53:13.069 +03:00 [INF] Executing endpoint 'BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc)'
+2023-03-04 21:53:13.074 +03:00 [INF] Route matched with {action = "CartsApplication", controller = "Carts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CartsApplication(BankSystem.Mvc.Models.ViewModels.CartsApplication.CartsModel) on controller BankSystem.Mvc.Controllers.CartsController (BankSystem.Mvc).
+2023-03-04 21:53:13.101 +03:00 [INF] Executing ViewResult, running view CartsApplication.
+2023-03-04 21:53:13.106 +03:00 [INF] Executed action BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc) in 31.5903ms
+2023-03-04 21:53:13.107 +03:00 [INF] Executed endpoint 'BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc)'
+2023-03-04 21:53:13.167 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'BankSystem.Mvc.Models.ViewModels.CartsApplication.AddCartsApplicationViewModel', but this ViewDataDictionary instance requires a model item of type 'BankSystem.Mvc.Models.ViewModels.CartsApplication.CartsModel'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at lambda_method80(Closure, ViewDataDictionary)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|30_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|25_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at BankSystem.Mvc.Program.<>c.<<Main>b__0_1>d.MoveNext() in C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc\Program.cs:line 101
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2023-03-04 21:53:13.238 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44335/Carts/CartsApplication/1 application/x-www-form-urlencoded 428 - 500 - text/html;+charset=utf-8 170.8090ms
+2023-03-04 21:53:13.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - -
+2023-03-04 21:53:13.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - -
+2023-03-04 21:53:13.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 1.8805ms
+2023-03-04 21:53:13.271 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 25.5637ms
+2023-03-04 21:53:14.922 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/Carts/CartsApplication/1 - -
+2023-03-04 21:53:14.923 +03:00 [INF] Executing endpoint 'BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc)'
+2023-03-04 21:53:14.923 +03:00 [INF] Route matched with {action = "CartsApplication", controller = "Carts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CartsApplication(Int32) on controller BankSystem.Mvc.Controllers.CartsController (BankSystem.Mvc).
+2023-03-04 21:53:14.972 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[CartId], [c].[Description], [c].[Image], [c].[Title]
+FROM [Carts] AS [c]
+WHERE [c].[CartId] = @__p_0
+2023-03-04 21:53:14.972 +03:00 [INF] Executing ViewResult, running view CartsApplication.
+2023-03-04 21:53:14.982 +03:00 [INF] Executed ViewResult - view CartsApplication executed in 9.2715ms.
+2023-03-04 21:53:14.982 +03:00 [INF] Executed action BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc) in 58.7528ms
+2023-03-04 21:53:14.982 +03:00 [INF] Executed endpoint 'BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc)'
+2023-03-04 21:53:14.986 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/Carts/CartsApplication/1 - - - 200 - text/html;+charset=utf-8 63.2570ms
+2023-03-04 21:53:14.994 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - -
+2023-03-04 21:53:14.995 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 0.7516ms
+2023-03-04 21:53:19.108 +03:00 [INF] Request starting HTTP/2 POST https://localhost:44335/Carts/CartsApplication/1 application/x-www-form-urlencoded 427
+2023-03-04 21:53:19.110 +03:00 [INF] Executing endpoint 'BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc)'
+2023-03-04 21:53:19.111 +03:00 [INF] Route matched with {action = "CartsApplication", controller = "Carts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult CartsApplication(BankSystem.Mvc.Models.ViewModels.CartsApplication.CartsModel) on controller BankSystem.Mvc.Controllers.CartsController (BankSystem.Mvc).
+2023-03-04 21:53:19.204 +03:00 [INF] Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [CartApplications] ([CartId], [DateTime], [IdentificationNumber], [PhoneNumber])
+OUTPUT INSERTED.[CartApplicationId]
+VALUES (@p0, @p1, @p2, @p3);
+2023-03-04 21:53:19.218 +03:00 [INF] Kart Başvurusu yapıldı
+2023-03-04 21:53:19.218 +03:00 [INF] Executing RedirectResult, redirecting to /Carts.
+2023-03-04 21:53:19.219 +03:00 [INF] Executed action BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc) in 107.8923ms
+2023-03-04 21:53:19.219 +03:00 [INF] Executed endpoint 'BankSystem.Mvc.Controllers.CartsController.CartsApplication (BankSystem.Mvc)'
+2023-03-04 21:53:19.219 +03:00 [INF] Request finished HTTP/2 POST https://localhost:44335/Carts/CartsApplication/1 application/x-www-form-urlencoded 427 - 302 - - 110.8239ms
+2023-03-04 21:53:19.221 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/Carts - -
+2023-03-04 21:53:19.222 +03:00 [INF] Executing endpoint 'BankSystem.Mvc.Controllers.CartsController.Index (BankSystem.Mvc)'
+2023-03-04 21:53:19.223 +03:00 [INF] Route matched with {action = "Index", controller = "Carts"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller BankSystem.Mvc.Controllers.CartsController (BankSystem.Mvc).
+2023-03-04 21:53:19.224 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [c].[CartId], [c].[Description], [c].[Image], [c].[Title]
+FROM [Carts] AS [c]
+2023-03-04 21:53:19.225 +03:00 [INF] Executing ViewResult, running view Index.
+2023-03-04 21:53:19.232 +03:00 [INF] Executed ViewResult - view Index executed in 7.4645ms.
+2023-03-04 21:53:19.232 +03:00 [INF] Executed action BankSystem.Mvc.Controllers.CartsController.Index (BankSystem.Mvc) in 9.6397ms
+2023-03-04 21:53:19.232 +03:00 [INF] Executed endpoint 'BankSystem.Mvc.Controllers.CartsController.Index (BankSystem.Mvc)'
+2023-03-04 21:53:19.236 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/Carts - - - 200 - text/html;+charset=utf-8 14.4145ms
+2023-03-04 21:53:19.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/img/logo.png - -
+2023-03-04 21:53:19.244 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - -
+2023-03-04 21:53:19.245 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/img/logo.png - - - 404 - - 1.2194ms
+2023-03-04 21:53:19.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/_vs/browserLink - -
+2023-03-04 21:53:19.245 +03:00 [INF] Request starting HTTP/2 GET https://localhost:44335/img/payment-item.png - -
+2023-03-04 21:53:19.246 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_framework/aspnetcore-browser-refresh.js - - - 200 11998 application/javascript;+charset=utf-8 1.1904ms
+2023-03-04 21:53:19.247 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/img/payment-item.png - - - 404 - - 1.6533ms
+2023-03-04 21:53:19.270 +03:00 [INF] Request finished HTTP/2 GET https://localhost:44335/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 24.1117ms
