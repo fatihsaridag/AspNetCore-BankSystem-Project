@@ -1,6 +1,50 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\1.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\1.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\10.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\10.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\11.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\11.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\2.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\2.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\3.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\3.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\4.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\4.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\5.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\5.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\6.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\6.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\7.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\7.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\8.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\8.PNG"
+    },
+    {
+      "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\blogImages\\9.PNG",
+      "PackagePath": "staticwebassets\\blogImages\\9.PNG"
+    },
+    {
       "Id": "C:\\Users\\fatih\\source\\repos\\BankSystem\\BankSystem.Mvc\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

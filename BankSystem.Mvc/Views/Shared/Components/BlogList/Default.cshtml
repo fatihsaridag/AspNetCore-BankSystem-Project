@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Blog>
+@using BankSystem.Entities.Entities
+
+
+
+<br />
+<br />
+<br />
+<h2 class="text-center">Fatih BBVA Blog</h2>
+<br />
+<br />
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="col-md-4">
+
+            <div class="card" style="height:550px;">
+                <img class="card-img-top" src="@item.Image" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">@item.Title</h5>
+                    <p class="card-text">@item.Description</p>
+                    <span><a asp-controller="Blogs" asp-action="BlogDetails" asp-route-id="@item.BlogId" class="btn btn-lg btn-info"><i class="fa-solid fa-eye"></i> İçeriğin tamamı</a></span>
+                </div>
+            </div>
+        </div>
+    }
+
+</div>

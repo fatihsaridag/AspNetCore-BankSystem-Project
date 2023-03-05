@@ -1,0 +1,25 @@
+﻿@model IEnumerable<BlogCategory>
+
+
+
+<div class="row">
+
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-1">
+    </div>
+    <div class="col-md-10">
+        <ul class="list-group list-group-horizontal-lg">
+            <li class="list-group-item" style="background-color:darkgoldenrod"><a asp-controller="Blogs" asp-action="Index">Tüm Kategoriler</a></li>
+            @foreach (var category in Model)
+            {
+                <li class="list-group-item" style="background-color:darkgoldenrod"><a asp-controller="Blogs" asp-action="BlogListByCategory" asp-route-id="@category.BlogCategoryId">@category.BlogCategoryName</a></li>
+
+            }
+
+        </ul>
+    </div>
+
+
+
+</div>

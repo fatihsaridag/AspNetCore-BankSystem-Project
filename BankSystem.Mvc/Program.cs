@@ -74,6 +74,8 @@ namespace BankSystem.Mvc
             builder.Services.AddControllersWithViews();
             builder.Services.AddScoped<ICartService, CartManager>();
             builder.Services.AddScoped<ICartApplicationService, CartApplicationManager>();
+            builder.Services.AddScoped<IBlogService, BlogManager>();
+            builder.Services.AddScoped<IBlogCategoryService, BlogCategoryManager>();
             builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
             builder.Host.UseSerilog(log);
 

@@ -11,6 +11,9 @@ namespace BankSystem.Data.UnitOfWorks.Abstract
     {
         ICartRepository Carts { get; }
         ICartApplicationRepository CartApplications { get; }
+        IBlogRepository Blogs { get; }
+        IBlogCategoryRepository BlogCategories { get; }
+        
         int Save();
     }
 }

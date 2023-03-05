@@ -16,6 +16,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\fatih\source\repos\BankSystem\BankSystem.Mvc
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Blogs/BlogListByCategory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcQmxvZ0xpc3RCeUNhdGVnb3J5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Blogs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Carts/CartsApplication.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FydHNcQ2FydHNBcHBsaWNhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -42,6 +50,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Home/VehicleCredit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxWZWhpY2xlQ3JlZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Shared/Components/BlogCategoryList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmxvZ0NhdGVnb3J5TGlzdFxEZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Shared/Components/BlogList/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQmxvZ0xpc3RcRGVmYXVsdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/fatih/source/repos/BankSystem/BankSystem.Mvc/Views/Shared/Components/CartList/Default.cshtml]

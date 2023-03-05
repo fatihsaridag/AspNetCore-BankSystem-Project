@@ -14,7 +14,6 @@ namespace BankSystem.Mvc.ViewComponents.Cart
 
         public IViewComponentResult Invoke()
         {
-
            var carts3Records =  _cartService.TGetCarts3Records();
             return View(carts3Records);
         }

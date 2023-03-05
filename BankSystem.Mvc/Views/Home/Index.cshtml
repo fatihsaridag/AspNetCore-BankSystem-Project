@@ -67,6 +67,10 @@
     </div>
 
 @await Component.InvokeAsync("CartList")
-
 <br />
-<a asp-controller="Carts" asp-action="Index"><h4 class="text-center text-primary"><img src="~/logo/plus.png"  style="width:30px; height:30px;"/> Tüm Kredi Kartlarını Gör</h4></a>
+<a asp-controller="Carts" asp-action="Index"><h4 class="text-center text-primary"><img src="~/logo/plus.png" style="width:30px; height:30px;" /> Tüm Kredi Kartlarını Gör</h4></a>
+@await Component.InvokeAsync("BlogList")
+<br />
+<a asp-controller="Blogs" asp-action="Index"><h4 class="text-center text-primary"><img src="~/logo/plus.png" style="width:30px; height:30px;" /> Tüm İçeriklere git</h4></a>
+
+
